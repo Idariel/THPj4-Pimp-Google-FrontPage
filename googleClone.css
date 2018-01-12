@@ -66,7 +66,7 @@ a:hover{
   margin-bottom: 0px;
   padding: 0px;
 }
-
+/* Barre de recherche */
 .centerDiv{
   width: 30%;
   height: 40px;
@@ -78,6 +78,7 @@ a:hover{
   height: 40px;
   margin: auto;
 }
+/* Fin de barre de recherche */
 
 .buttons{
   display: flex;
@@ -137,4 +138,23 @@ footer{
 .foot{
   display: inline-block;
   margin: 0 10px 0 0;
+}
+
+
+/* Gros bouton ELEMENT CENTRAUX */
+#grosBouton{
+  display: flex;
+  width: 30%;
+  height: 250px;
+  margin: 80px auto 25px auto;
+  background-color: green;
+  display: flex;
+}
+.grosBouton{
+  justify-content: center;
+  background-color: transparent;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 2.3em;
+  padding: 10px;
 }
