@@ -45,10 +45,13 @@ a{
   text-decoration: none;
 }
 
+.lien{
+  text-decoration: none;
+}
+
 a:hover{
   text-decoration: underline;
 }
-
 
 #main{
   width: auto;
@@ -91,7 +94,6 @@ a:hover{
   height: 40px;
   width: 150px;
   background-color: #eeeeee;
-  text-decoration: none;
   margin: 0 10px;
   padding: 5px;
   font-size: 13px;
@@ -148,7 +150,6 @@ footer{
   height: 250px;
   margin: 80px auto 25px auto;
   background-color: green;
-  display: flex;
 }
 .grosBouton{
   justify-content: center;
