@@ -30,12 +30,19 @@ window.addEventListener('DOMContentLoaded', function(){
     $('.buttons').show();
     $('.boutonGris').fadeIn(3000);
   }, 500);
-  
+
   }, false);
+
+  document.getElementByClassName("clic1").addEventListener("click", function( event ) {
+
+  });
+
+  document.getElementByClassName("clic2").addEventListener("click", function( event ) {
+    
+  });
+
 
 
 // setInterval(function(){ alert("Hello"); }, 3000);
-
-
 
 }); // Fin de window.addEventListener('DOMContentLoaded'
